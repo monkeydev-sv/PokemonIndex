@@ -1,0 +1,12 @@
+.Navbar {
+    text-align: center;
+    padding: 20px;
+    background:lightblue;
+    color: white;
+    border-radius: 20px;
+    border-style: solid;
+    border-color: black;
+ }
+ .Img__Nav{
+    text-align: center;
+ }

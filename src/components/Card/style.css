@@ -1,0 +1,90 @@
+p {
+    margin: 0;
+}
+
+.Card {
+    
+    background:#d1cbcb;
+    border-radius: 10px;
+    border-style: solid;
+  border-color: black;
+height: 300pt;
+}
+
+.Card__img {
+    text-align: center;
+    
+
+}
+.btn1 {
+    margin: 2px 0;
+padding-left: 2px;
+}
+.btn1 button {
+
+    border-color: black;
+    border-style: solid;
+    border-radius: 5px;
+    background:red;
+    color: #fff;
+    font-size: 1em;
+    font-style: oblique;
+}
+
+.btn {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    float: right;
+  }
+  
+  .btn button {
+    
+    border-style: none;
+    padding: 5px 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+    background:blue;
+    color: #fff;
+    font-size: 1em;
+    font-style: oblique;
+  }
+
+  .line {
+    display: flex;
+    justify-content: center;
+    margin: 20px 0;
+    
+  }
+
+
+.Card__name {
+    padding: 10px;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+}
+
+.Card__info {
+    margin-left: 10px;
+}
+
+.Card__data {
+    padding-bottom: 10px;
+}
+
+.Card__data .title {
+    font-weight: 700;
+}
+.active{
+opacity: 0;  
+text-align: center; 
+
+}
+.Card__type {
+    padding: 5px 10px;
+    margin: 10px 10px 10px 0;
+    border-radius: 5px;
+    background: cyan;
+    color: #fff;
+}
