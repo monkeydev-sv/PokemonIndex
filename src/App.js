@@ -26,7 +26,7 @@ function App() {
                 return pokemonRecord;
             })
         );
-
+        //console.log ("pokemonData",_pokemonData)
         setPokemonData(_pokemonData);
     };
 
